@@ -61,7 +61,7 @@ with st.sidebar:
         nv_key = st.text_input("NVIDIA API anahtarı", type="password",
                                help="build.nvidia.com → Get API Key. Kalıcı için "
                                     ".streamlit/secrets.toml içine NVIDIA_API_KEY yazın.")
-    nv_model = st.selectbox("Model", ["openai/gpt-oss-120b", "openai/gpt-oss-20b"],
+    nv_model = st.selectbox("Model", ["openai/gpt-oss-20b"],
                             help="20b daha hızlı, 120b daha tutarlı")
 
     yeniden = st.checkbox("Modeli yeniden eğit", value=False,
