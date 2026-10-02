@@ -1,0 +1,7 @@
+tjktahmin/data/export/tjk_veri_tam.csv
+data/export/tjk_veri_tam.csv
+
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+data/muhtemeller_debug/

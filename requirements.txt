@@ -1,0 +1,10 @@
+pandas>=2.0
+numpy
+requests
+beautifulsoup4
+lxml
+lightgbm>=4.0
+scikit-learn
+streamlit>=1.35
+pyarrow
+altair>=5
